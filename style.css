@@ -1,0 +1,48 @@
+.slider {
+    position: relative;
+    width: 800px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.slider__button {
+    position: absolute;
+    top: 190px;
+    color: transparent;
+    background: no-repeat center;
+    background-size: 103px auto;
+    width: 103px;
+    height: 103px;
+    border: none;
+    cursor: pointer;
+}
+
+.slider__button_next {
+    right: 0;
+    background-image: url("scene1/arrow-right.png");
+}
+
+.slider__button_prev {
+    left: 0;
+    background-image: url("scene1/arrow-left.png");
+}
+
+#background_one {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    z-index: -3;
+    background-image: url("scene1/background.png");
+    background-size: auto 450px;
+
+}
+
+#glass {
+    background-image: url("scene1/glass.png");
+    width: 52px;
+    height: 109px;
+    z-index: 1;
+    background-size: 80px 110px;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
